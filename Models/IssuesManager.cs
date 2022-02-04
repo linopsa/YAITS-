@@ -30,6 +30,7 @@ namespace YAITS_.Models
             issues.Add(new Issues("problem3", "The third problem", 3, true, "Patricia", "Katz"));
             issues.Add(new Issues("problem4", "The forth problem", 5, false, "Dan", "Stepanov"));
             issues.Add(new Issues("problem5", "The fifth problem", 7, true, "Another", "One"));
+            issues.Add(new Issues("problem6", "The last loaded problem", 7, false, "", ""));
         }
 
         public void AddIssue(Issues issue)
